@@ -1,0 +1,12 @@
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\bin\Debug\net6.0\RepositeryLayer.deps.json
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\bin\Debug\net6.0\RepositeryLayer.dll
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\bin\Debug\net6.0\RepositeryLayer.pdb
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\obj\Debug\net6.0\RepositeryLayer.csproj.AssemblyReference.cache
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\obj\Debug\net6.0\RepositeryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\obj\Debug\net6.0\RepositeryLayer.AssemblyInfoInputs.cache
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\obj\Debug\net6.0\RepositeryLayer.AssemblyInfo.cs
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\obj\Debug\net6.0\RepositeryLayer.csproj.CoreCompileInputs.cache
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\obj\Debug\net6.0\RepositeryLayer.dll
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\obj\Debug\net6.0\refint\RepositeryLayer.dll
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\obj\Debug\net6.0\RepositeryLayer.pdb
+C:\Users\Udit\source\repos\GreetingApp\RepositeryLayer\obj\Debug\net6.0\ref\RepositeryLayer.dll
