@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using BuisnessLayer.Interface;
 using ModelLayer.Model;
+using BuisnessLayer.Service;
+using NLog;
 
 namespace GreetingApp.Controllers
 {
@@ -8,6 +10,12 @@ namespace GreetingApp.Controllers
     [Route("[controller]")]
     public class GreetingAppController : ControllerBase
     {
+        private readonly IGreetingAppBL _greetingBL;
+        private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
+        public GreetingAppController(IGreetingAppBL _greetingAppBL) {
+            _greetingBL= _greetingAppBL;
+            _logger.Info("logger started");
+        }
         [HttpGet]
         public IActionResult Get()
         {
@@ -49,6 +57,12 @@ namespace GreetingApp.Controllers
             response.Message = "delete message recieved";
             response.Data = $"Key:{requestModel.Key},Deleted Succesfully";
             return Ok(response);
+        }
+        [HttpGet]
+        [Route("Hello!")]
+        public string world() 
+        {
+            return _greetingBL.Greet();
         }
 
     }

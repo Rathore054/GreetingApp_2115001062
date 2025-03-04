@@ -5,10 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using BuisnessLayer.Interface;
 
-namespace BuisnessLayer
+namespace BuisnessLayer.Service
 {
     public class GreetingAppBL:IGreetingAppBL
     {
-
+        public string Greet()
+        {
+            return "HelloWorld";
+        }
     }
 }

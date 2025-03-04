@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Udit\\source\\repos\\GreetingApp\\GreetingApp\\GreetingApp.csproj": {}
+    "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\GreetingApp\\GreetingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Udit\\source\\repos\\GreetingApp\\BuisnessLayer\\BuisnessLayer.csproj": {
+    "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\BuisnessLayer\\BuisnessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\BuisnessLayer\\BuisnessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\BuisnessLayer\\BuisnessLayer.csproj",
         "projectName": "BuisnessLayer",
-        "projectPath": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\BuisnessLayer\\BuisnessLayer.csproj",
+        "projectPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\BuisnessLayer\\BuisnessLayer.csproj",
         "packagesPath": "C:\\Users\\Udit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\BuisnessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\BuisnessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Udit\\source\\repos\\GreetingApp\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\ModelLayer\\ModelLayer.csproj"
+              "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\ModelLayer\\ModelLayer.csproj"
               },
-              "C:\\Users\\Udit\\source\\repos\\GreetingApp\\RepositeryLayer\\RepositeryLayer.csproj": {
-                "projectPath": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\RepositeryLayer\\RepositeryLayer.csproj"
+              "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\RepositeryLayer\\RepositeryLayer.csproj": {
+                "projectPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\RepositeryLayer\\RepositeryLayer.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\Udit\\source\\repos\\GreetingApp\\GreetingApp\\GreetingApp.csproj": {
+    "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\GreetingApp\\GreetingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\GreetingApp\\GreetingApp.csproj",
+        "projectUniqueName": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\GreetingApp\\GreetingApp.csproj",
         "projectName": "GreetingApp",
-        "projectPath": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\GreetingApp\\GreetingApp.csproj",
+        "projectPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\GreetingApp\\GreetingApp.csproj",
         "packagesPath": "C:\\Users\\Udit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\GreetingApp\\obj\\",
+        "outputPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\GreetingApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,8 +124,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Udit\\source\\repos\\GreetingApp\\BuisnessLayer\\BuisnessLayer.csproj": {
-                "projectPath": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\BuisnessLayer\\BuisnessLayer.csproj"
+              "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\BuisnessLayer\\BuisnessLayer.csproj": {
+                "projectPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\BuisnessLayer\\BuisnessLayer.csproj"
               }
             }
           }
@@ -186,14 +186,14 @@
         }
       }
     },
-    "C:\\Users\\Udit\\source\\repos\\GreetingApp\\ModelLayer\\ModelLayer.csproj": {
+    "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\ModelLayer\\ModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\ModelLayer\\ModelLayer.csproj",
         "projectName": "ModelLayer",
-        "projectPath": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\ModelLayer\\ModelLayer.csproj",
+        "projectPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\Udit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\ModelLayer\\obj\\",
+        "outputPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -270,14 +270,14 @@
         }
       }
     },
-    "C:\\Users\\Udit\\source\\repos\\GreetingApp\\RepositeryLayer\\RepositeryLayer.csproj": {
+    "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\RepositeryLayer\\RepositeryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\RepositeryLayer\\RepositeryLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\RepositeryLayer\\RepositeryLayer.csproj",
         "projectName": "RepositeryLayer",
-        "projectPath": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\RepositeryLayer\\RepositeryLayer.csproj",
+        "projectPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\RepositeryLayer\\RepositeryLayer.csproj",
         "packagesPath": "C:\\Users\\Udit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Udit\\source\\repos\\GreetingApp\\RepositeryLayer\\obj\\",
+        "outputPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\RepositeryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

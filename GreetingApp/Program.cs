@@ -2,6 +2,8 @@
 using NLog;
 using NLog.Web;
 using NLog.Config;
+using BuisnessLayer.Interface;
+using BuisnessLayer.Service;
 
 
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
@@ -15,12 +17,12 @@ try
     // Add NLog as logging provider
     builder.Logging.ClearProviders();
     builder.Host.UseNLog();
-
+    
     // Add services to the container
     builder.Services.AddControllers();
     builder.Services.AddSwaggerGen();
     builder.Services.AddEndpointsApiExplorer();
-
+    builder.Services.AddScoped<IGreetingAppBL, GreetingAppBL>();
     var app = builder.Build();
 
     if (app.Environment.IsDevelopment())

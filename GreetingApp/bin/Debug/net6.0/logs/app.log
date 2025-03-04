@@ -30,3 +30,33 @@
 2025-03-04 18:55:29.6754 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 91.4340ms 
 2025-03-04 18:55:29.7288 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
 2025-03-04 18:55:29.7288 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.3425ms 
+2025-03-05 00:33:17.7089 | INFO | Application is starting... 
+2025-03-05 00:33:18.5939 | INFO | Now listening on: https://localhost:7120 
+2025-03-05 00:33:18.6019 | INFO | Now listening on: http://localhost:5244 
+2025-03-05 00:33:18.6599 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-05 00:33:18.6599 | INFO | Hosting environment: Development 
+2025-03-05 00:33:18.6599 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-05 00:33:19.7546 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-05 00:33:20.0794 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 326.9299ms 
+2025-03-05 00:33:20.1246 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-05 00:33:20.1246 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - 
+2025-03-05 00:33:20.1246 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 5.8296ms 
+2025-03-05 00:33:20.1402 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-05 00:33:20.1402 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - - 200 154948 text/css 15.9656ms 
+2025-03-05 00:33:20.2409 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-05 00:33:20.2409 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-05 00:33:20.2422 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 1.2467ms 
+2025-03-05 00:33:20.2985 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.5618ms 
+2025-03-05 00:33:20.5025 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-05 00:33:20.5025 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-05 00:33:20.5025 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 200 628 image/png 2.6024ms 
+2025-03-05 00:33:20.5691 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-05 00:33:20.5777 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.5316ms 
+2025-03-05 00:34:02.7410 | INFO | Request starting HTTP/2 GET https://localhost:7120/GreetingApp/Hello! - - 
+2025-03-05 00:34:02.7460 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.world (GreetingApp)' 
+2025-03-05 00:34:02.7667 | INFO | Route matched with {action = "world", controller = "GreetingApp"}. Executing controller action with signature System.String world() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-05 00:34:02.7747 | INFO | logger started 
+2025-03-05 00:34:02.7747 | INFO | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-05 00:34:02.7891 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.world (GreetingApp) in 16.4476ms 
+2025-03-05 00:34:02.7891 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.world (GreetingApp)' 
+2025-03-05 00:34:02.7891 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp/Hello! - - - 200 - text/plain;+charset=utf-8 49.4627ms 
