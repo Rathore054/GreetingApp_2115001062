@@ -11,5 +11,7 @@ namespace BuisnessLayer.Interface
     {
         public string Greet();
         public string getGreeting(DetailsModel user);
+        public bool GreetMethod(GreetingModel greetingModel);
+        public GreetingModel GreetingIDFind(int ID);
     }
 }

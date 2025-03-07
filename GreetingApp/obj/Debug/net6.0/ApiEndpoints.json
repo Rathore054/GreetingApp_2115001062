@@ -91,6 +91,22 @@
   },
   {
     "ContainingType": "GreetingApp.Controllers.GreetingAppController",
+    "Method": "PostDisplay",
+    "RelativePath": "GreetingApp/displayGreet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "greetingModel",
+        "Type": "ModelLayer.Model.GreetingModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreetingApp.Controllers.GreetingAppController",
     "Method": "world",
     "RelativePath": "GreetingApp/Hello!",
     "HttpMethod": "GET",
@@ -108,5 +124,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "GreetingApp.Controllers.GreetingAppController",
+    "Method": "IDFind",
+    "RelativePath": "GreetingApp/IDFind{ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace RepositeryLayer.Entity
 {
-    public class User
+    public class AppEntity
     {
         [Key]
-        public int Id { get; set; }  // Ensure Id exists
+        public int Id { get; set; }  
         [Required]
-        public string greet { get; set; }
+        public string Greet { get; set; }
        
     }
 }

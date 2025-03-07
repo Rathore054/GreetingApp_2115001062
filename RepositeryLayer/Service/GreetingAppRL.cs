@@ -6,11 +6,21 @@ using System.Text;
 using System.Threading.Tasks;
 using RepositeryLayer.Interface;
 using ModelLayer.Model;
+using NLog;
+using RepositeryLayer.Context;
+using RepositeryLayer.Entity;
 
 namespace RepositeryLayer.Service
 {
     public class GreetingAppRL : IGreetingAppRL
     {
+        private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
+        private readonly AppDbContext _context;
+        public GreetingAppRL(AppDbContext context)
+        {
+            _context = context;
+        }
+
         public string GetGreeting(DetailsModel detailsModel)
         {
             if (!string.IsNullOrWhiteSpace(detailsModel.FirstName) && !string.IsNullOrWhiteSpace(detailsModel.LastName))
@@ -29,6 +39,38 @@ namespace RepositeryLayer.Service
             {
                 return "Hello, World!";
             }
+
+        }
+        public bool GreetMethod(GreetingModel greetingModel)
+        {
+            if (_context.Users.Any(greet => greet.Greet == greetingModel.GreetMessage))
+            {
+                return false;
+            }
+            var appEntity = new AppEntity
+            {
+                Greet = greetingModel.GreetMessage,
+            };
+            // Save to database
+            _context.Users.Add(appEntity);
+            _context.SaveChanges();
+            return true;
+        }
+
+        public GreetingModel GreetingIDFind(int ID)
+        {
+            var IDFind = _context.Users.FirstOrDefault(g => g.Id == ID);
+            if (IDFind != null)
+            {
+                return new GreetingModel()
+                {
+                    ID = IDFind.Id,
+                    GreetMessage=IDFind.Greet
+                };
+            }
+            return null;
+            
         }
     }
+
 }

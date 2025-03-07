@@ -4,6 +4,7 @@ using ModelLayer.Model;
 using BuisnessLayer.Service;
 using RepositeryLayer.Interface;
 using NLog;
+using System.Reflection.Metadata.Ecma335;
 
 namespace GreetingApp.Controllers
 {
@@ -81,6 +82,44 @@ namespace GreetingApp.Controllers
             response.Message = "Greeting with Firstname and Last";
             response.Data= result;
             return Ok(response);
+        }
+        /// <summary>
+        /// UC5down
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost("displayGreet")]
+        public IActionResult PostDisplay(GreetingModel greetingModel) 
+        {
+            var response=new ResponseModel<string>();
+            bool isMessagegrret=_greetingBL.GreetMethod(greetingModel);
+            if (isMessagegrret)
+            {
+                response.Success = true;
+                response.Message = "Displayed Greet message";
+                response.Data = greetingModel.ToString();
+                return Ok(response);
+            }
+            response.Success = true;
+            response.Message = "Displayed Greet message";
+            return Conflict(response);
+        }
+
+
+        [HttpGet("IDFind{ID}")]
+        public IActionResult IDFind(int ID)
+        {
+            var response = new ResponseModel<GreetingModel>();
+            var find = _greetingBL.GreetingIDFind(ID);
+            if (find!=null)
+            {
+                response.Success = true;
+                response.Message = "ID found";
+                response.Data = find;
+                return Ok(response);
+            }
+            response.Success = true;
+            response.Message = "not found";
+            return NotFound(response);
         }
 
     }

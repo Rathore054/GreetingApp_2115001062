@@ -10,5 +10,7 @@ namespace RepositeryLayer.Interface
     public interface IGreetingAppRL
     {
         public string GetGreeting(DetailsModel detailsModel);
+        public bool GreetMethod(GreetingModel greetingModel);
+        public GreetingModel GreetingIDFind(int ID);
     }
 }

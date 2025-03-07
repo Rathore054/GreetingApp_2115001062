@@ -23,5 +23,13 @@ namespace BuisnessLayer.Service
         public string getGreeting(DetailsModel detailsModel) {
             return _iGreetingAppRL.GetGreeting(detailsModel);
         }
+        public bool GreetMethod(GreetingModel greetingModel) 
+        { 
+        return _iGreetingAppRL.GreetMethod(greetingModel);
+        }
+        public GreetingModel GreetingIDFind(int ID) 
+        {
+        return _iGreetingAppRL.GreetingIDFind(ID);
+        }
     }
 }
