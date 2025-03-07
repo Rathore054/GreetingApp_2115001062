@@ -4,6 +4,8 @@ using NLog.Web;
 using NLog.Config;
 using BuisnessLayer.Interface;
 using BuisnessLayer.Service;
+using RepositeryLayer.Interface;
+using RepositeryLayer.Service;
 
 
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
@@ -23,6 +25,7 @@ try
     builder.Services.AddSwaggerGen();
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddScoped<IGreetingAppBL, GreetingAppBL>();
+    builder.Services.AddScoped<IGreetingAppRL, GreetingAppRL>();
     var app = builder.Build();
 
     if (app.Environment.IsDevelopment())

@@ -298,7 +298,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\ModelLayer\\ModelLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

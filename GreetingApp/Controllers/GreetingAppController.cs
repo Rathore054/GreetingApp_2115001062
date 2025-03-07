@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using BuisnessLayer.Interface;
 using ModelLayer.Model;
 using BuisnessLayer.Service;
+using RepositeryLayer.Interface;
 using NLog;
 
 namespace GreetingApp.Controllers
@@ -25,6 +26,7 @@ namespace GreetingApp.Controllers
             response.Data = "I am 007";
             return Ok(response);
         }
+       
         [HttpPost]
         public IActionResult Post(RequestModel requestModel)
         {
@@ -63,6 +65,22 @@ namespace GreetingApp.Controllers
         public string world() 
         {
             return _greetingBL.Greet();
+        }
+        /// <summary>
+        /// used for displaying Firstname and Lastname with Hello[UC3]
+        /// </summary>
+        /// <param name="detailsModel"></param>
+        /// <returns></returns>
+        [HttpPost("Detail")]
+        public IActionResult Detail(DetailsModel detailsModel) 
+        {
+            var result = _greetingBL.getGreeting(detailsModel);
+
+            ResponseModel<string> response=new ResponseModel<string>();
+            response.Success = true;
+            response.Message = "Greeting with Firstname and Last";
+            response.Data= result;
+            return Ok(response);
         }
 
     }

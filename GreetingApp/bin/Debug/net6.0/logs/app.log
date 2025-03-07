@@ -60,3 +60,314 @@
 2025-03-05 00:34:02.7891 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.world (GreetingApp) in 16.4476ms 
 2025-03-05 00:34:02.7891 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.world (GreetingApp)' 
 2025-03-05 00:34:02.7891 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp/Hello! - - - 200 - text/plain;+charset=utf-8 49.4627ms 
+2025-03-05 22:01:11.3508 | INFO | Application is starting... 
+2025-03-05 22:01:12.4058 | INFO | Now listening on: https://localhost:7120 
+2025-03-05 22:01:12.4167 | INFO | Now listening on: http://localhost:5244 
+2025-03-05 22:01:12.4736 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-05 22:01:12.4736 | INFO | Hosting environment: Development 
+2025-03-05 22:01:12.4736 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-05 22:01:14.8710 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-05 22:01:15.4407 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 573.9400ms 
+2025-03-05 22:01:15.5642 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-05 22:01:15.5642 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - 
+2025-03-05 22:01:15.5642 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.css - - 
+2025-03-05 22:01:15.5642 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-05 22:01:15.5642 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-05 22:01:15.5844 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 20.3747ms 
+2025-03-05 22:01:15.5844 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 19.4196ms 
+2025-03-05 22:01:15.6017 | INFO | Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2025-03-05 22:01:15.6017 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.css - - - 200 202 text/css 37.3896ms 
+2025-03-05 22:01:15.6510 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-05 22:01:15.6510 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - - 200 154948 text/css 95.9988ms 
+2025-03-05 22:01:15.7455 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 180.3503ms 
+2025-03-05 22:01:15.8937 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui-bundle.js - - 
+2025-03-05 22:01:15.9026 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui-standalone-preset.js - - 
+2025-03-05 22:01:15.9026 | INFO | The file /swagger-ui-bundle.js was not modified 
+2025-03-05 22:01:15.9026 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 12.2671ms 
+2025-03-05 22:01:15.9026 | INFO | The file /swagger-ui-standalone-preset.js was not modified 
+2025-03-05 22:01:15.9026 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 4.0617ms 
+2025-03-05 22:01:16.1055 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-05 22:01:16.1055 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-05 22:01:16.1055 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 200 628 image/png 4.2557ms 
+2025-03-05 22:01:16.1965 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-05 22:01:16.1965 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.4428ms 
+2025-03-05 22:01:44.4016 | INFO | Request starting HTTP/1.1 GET https://localhost:7120/swagger/index.html - - 
+2025-03-05 22:01:44.4214 | INFO | Request finished HTTP/1.1 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 19.8105ms 
+2025-03-05 22:02:24.9020 | INFO | Request starting HTTP/1.1 POST https://localhost:7120/swagger/index.html - 0 
+2025-03-05 22:02:24.9020 | INFO | Request finished HTTP/1.1 POST https://localhost:7120/swagger/index.html - 0 - 404 0 - 5.6183ms 
+2025-03-05 22:03:33.4250 | INFO | Request starting HTTP/1.1 GET https://localhost:7120/swagger/index.html - - 
+2025-03-05 22:03:33.4250 | INFO | Request finished HTTP/1.1 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 1.4640ms 
+2025-03-05 22:13:22.9710 | INFO | Application is starting... 
+2025-03-05 22:13:23.8480 | INFO | Now listening on: https://localhost:7120 
+2025-03-05 22:13:23.8554 | INFO | Now listening on: http://localhost:5244 
+2025-03-05 22:13:23.8985 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-05 22:13:23.8985 | INFO | Hosting environment: Development 
+2025-03-05 22:13:23.8985 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-05 22:13:26.0991 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger - - 
+2025-03-05 22:13:26.1007 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-05 22:13:26.3143 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger - - - 0 - - 218.2141ms 
+2025-03-05 22:13:26.4339 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 333.2087ms 
+2025-03-05 22:13:26.4645 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-05 22:13:26.4645 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 5.3303ms 
+2025-03-05 22:13:26.6585 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-05 22:13:26.6685 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-05 22:13:26.6685 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 14.3430ms 
+2025-03-05 22:13:26.7448 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 76.3427ms 
+2025-03-05 22:13:27.0874 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-05 22:13:27.1097 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-05 22:13:27.1097 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 200 628 image/png 26.3085ms 
+2025-03-05 22:13:27.1430 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-05 22:13:27.1508 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.8286ms 
+2025-03-05 22:14:20.8846 | INFO | Request starting HTTP/1.1 GET https://localhost:7120/swagger/index.html/Getrequest - - 
+2025-03-05 22:14:20.8992 | INFO | Request finished HTTP/1.1 GET https://localhost:7120/swagger/index.html/Getrequest - - - 404 0 - 14.6336ms 
+2025-03-05 22:15:24.0337 | INFO | Request starting HTTP/2 GET https://localhost:7120/GreetingApp/Getrequest - - 
+2025-03-05 22:15:24.0426 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.Get (GreetingApp)' 
+2025-03-05 22:15:24.0560 | INFO | Route matched with {action = "Get", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-05 22:15:24.0560 | INFO | logger started 
+2025-03-05 22:15:24.0560 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-05 22:15:24.0766 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.Get (GreetingApp) in 14.8482ms 
+2025-03-05 22:15:24.0766 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.Get (GreetingApp)' 
+2025-03-05 22:15:24.0766 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp/Getrequest - - - 200 - application/json;+charset=utf-8 43.7891ms 
+2025-03-05 22:15:32.1164 | INFO | Request starting HTTP/2 GET https://localhost:7120/GreetingApp - - 
+2025-03-05 22:15:32.1164 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.Gethello (GreetingApp)' 
+2025-03-05 22:15:32.1164 | INFO | Route matched with {action = "Gethello", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Gethello() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-05 22:15:32.1164 | INFO | logger started 
+2025-03-05 22:15:32.1164 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-05 22:15:32.1164 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.Gethello (GreetingApp) in 0.6799ms 
+2025-03-05 22:15:32.1164 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.Gethello (GreetingApp)' 
+2025-03-05 22:15:32.1164 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp - - - 200 - application/json;+charset=utf-8 4.2600ms 
+2025-03-05 22:15:43.4165 | INFO | Request starting HTTP/2 GET https://localhost:7120/GreetingApp/Hello! - - 
+2025-03-05 22:15:43.4165 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.world (GreetingApp)' 
+2025-03-05 22:15:43.4165 | INFO | Route matched with {action = "world", controller = "GreetingApp"}. Executing controller action with signature System.String world() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-05 22:15:43.4165 | INFO | logger started 
+2025-03-05 22:15:43.4165 | INFO | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-05 22:15:43.4165 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.world (GreetingApp) in 2.8169ms 
+2025-03-05 22:15:43.4165 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.world (GreetingApp)' 
+2025-03-05 22:15:43.4165 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp/Hello! - - - 200 - text/plain;+charset=utf-8 5.8394ms 
+2025-03-06 11:44:42.4549 | INFO | Application is starting... 
+2025-03-06 11:44:43.9320 | INFO | Now listening on: https://localhost:7120 
+2025-03-06 11:44:43.9463 | INFO | Now listening on: http://localhost:5244 
+2025-03-06 11:44:44.0522 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-06 11:44:44.0608 | INFO | Hosting environment: Development 
+2025-03-06 11:44:44.0753 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-06 11:44:47.6328 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-06 11:44:48.7816 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 1153.7687ms 
+2025-03-06 11:44:48.8628 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-06 11:44:48.8754 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 12.6399ms 
+2025-03-06 11:44:49.3933 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-06 11:44:49.4119 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 18.5206ms 
+2025-03-06 11:44:49.4126 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-06 11:44:49.8681 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 455.5555ms 
+2025-03-06 11:44:49.9961 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-06 11:44:50.0171 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 20.9023ms 
+2025-03-07 01:16:55.9488 | INFO | Application is starting... 
+2025-03-07 01:16:57.6389 | INFO | Now listening on: https://localhost:7120 
+2025-03-07 01:16:57.6554 | INFO | Now listening on: http://localhost:5244 
+2025-03-07 01:16:57.7533 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-07 01:16:57.7533 | INFO | Hosting environment: Development 
+2025-03-07 01:16:57.7533 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-07 01:17:02.5547 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-07 01:17:04.0394 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 1692.3301ms 
+2025-03-07 01:17:04.1031 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-07 01:17:04.1212 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 18.0789ms 
+2025-03-07 01:17:04.1456 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - 
+2025-03-07 01:17:04.1456 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.css - - 
+2025-03-07 01:17:04.1769 | INFO | The file /index.css was not modified 
+2025-03-07 01:17:04.1769 | INFO | The file /swagger-ui.css was not modified 
+2025-03-07 01:17:04.1783 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.css - - - 304 - text/css 31.9452ms 
+2025-03-07 01:17:04.1783 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - - 304 - text/css 32.6923ms 
+2025-03-07 01:17:04.2593 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-07 01:17:04.2593 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-07 01:17:04.2593 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 4.8104ms 
+2025-03-07 01:17:04.7279 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui-bundle.js - - 
+2025-03-07 01:17:04.7279 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui-standalone-preset.js - - 
+2025-03-07 01:17:04.7279 | INFO | The file /swagger-ui-bundle.js was not modified 
+2025-03-07 01:17:04.7279 | INFO | The file /swagger-ui-standalone-preset.js was not modified 
+2025-03-07 01:17:04.7279 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 4.3267ms 
+2025-03-07 01:17:04.7279 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 4.3994ms 
+2025-03-07 01:17:04.7564 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 496.6623ms 
+2025-03-07 01:17:05.1441 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-07 01:17:05.1547 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-07 01:17:05.1641 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-07 01:17:05.1641 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 200 628 image/png 21.2003ms 
+2025-03-07 01:17:05.1641 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11.5412ms 
+2025-03-07 01:17:20.5439 | INFO | Request starting HTTP/1.1 GET https://localhost:7120/swagger/index.html application/json 55 
+2025-03-07 01:17:20.5620 | INFO | Request finished HTTP/1.1 GET https://localhost:7120/swagger/index.html application/json 55 - 200 - text/html;charset=utf-8 18.1079ms 
+2025-03-07 01:18:15.5797 | INFO | Request starting HTTP/2 GET https://localhost:7120/GreetingApp - - 
+2025-03-07 01:18:15.5875 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.Get (GreetingApp)' 
+2025-03-07 01:18:15.6061 | INFO | Route matched with {action = "Get", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-07 01:18:15.6061 | INFO | logger started 
+2025-03-07 01:18:15.6213 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-07 01:18:15.6316 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.Get (GreetingApp) in 18.9611ms 
+2025-03-07 01:18:15.6316 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.Get (GreetingApp)' 
+2025-03-07 01:18:15.6316 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp - - - 200 - application/json;+charset=utf-8 52.5406ms 
+2025-03-07 01:18:28.5248 | INFO | Request starting HTTP/1.1 GET https://localhost:7120/GreetingApp application/json 55 
+2025-03-07 01:18:28.5248 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.Get (GreetingApp)' 
+2025-03-07 01:18:28.5248 | INFO | Route matched with {action = "Get", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-07 01:18:28.5248 | INFO | logger started 
+2025-03-07 01:18:28.5248 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-07 01:18:28.5248 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.Get (GreetingApp) in 1.7197ms 
+2025-03-07 01:18:28.5248 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.Get (GreetingApp)' 
+2025-03-07 01:18:28.5248 | INFO | Request finished HTTP/1.1 GET https://localhost:7120/GreetingApp application/json 55 - 200 - application/json;+charset=utf-8 7.8777ms 
+2025-03-07 01:18:45.8532 | INFO | Request starting HTTP/1.1 POST https://localhost:7120/GreetingApp application/json 55 
+2025-03-07 01:18:45.8532 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.Post (GreetingApp)' 
+2025-03-07 01:18:45.8817 | INFO | Route matched with {action = "Post", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(ModelLayer.Model.RequestModel) on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-07 01:18:45.8817 | INFO | logger started 
+2025-03-07 01:18:45.9201 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-07 01:18:45.9201 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.Post (GreetingApp) in 39.1514ms 
+2025-03-07 01:18:45.9201 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.Post (GreetingApp)' 
+2025-03-07 01:18:45.9201 | INFO | Request finished HTTP/1.1 POST https://localhost:7120/GreetingApp application/json 55 - 200 - application/json;+charset=utf-8 69.6836ms 
+2025-03-07 01:19:23.1744 | INFO | Request starting HTTP/2 GET https://localhost:7120/GreetingApp/Hello! - - 
+2025-03-07 01:19:23.1744 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.world (GreetingApp)' 
+2025-03-07 01:19:23.1787 | INFO | Route matched with {action = "world", controller = "GreetingApp"}. Executing controller action with signature System.String world() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-07 01:19:23.1787 | INFO | logger started 
+2025-03-07 01:19:23.1787 | INFO | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-07 01:19:23.1787 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.world (GreetingApp) in 3.194ms 
+2025-03-07 01:19:23.1787 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.world (GreetingApp)' 
+2025-03-07 01:19:23.1787 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp/Hello! - - - 200 - text/plain;+charset=utf-8 9.7511ms 
+2025-03-07 01:19:45.0202 | INFO | Request starting HTTP/1.1 POST https://localhost:7120/GreetingApp/Hello! application/json 55 
+2025-03-07 01:19:45.0282 | INFO | Executing endpoint '405 HTTP Method Not Supported' 
+2025-03-07 01:19:45.0419 | INFO | Executed endpoint '405 HTTP Method Not Supported' 
+2025-03-07 01:19:45.0419 | INFO | Request finished HTTP/1.1 POST https://localhost:7120/GreetingApp/Hello! application/json 55 - 405 0 - 22.1264ms 
+2025-03-07 01:20:07.8936 | INFO | Request starting HTTP/1.1 GET https://localhost:7120/GreetingApp/Hello! application/json 55 
+2025-03-07 01:20:07.8936 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.world (GreetingApp)' 
+2025-03-07 01:20:07.8936 | INFO | Route matched with {action = "world", controller = "GreetingApp"}. Executing controller action with signature System.String world() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-07 01:20:07.8936 | INFO | logger started 
+2025-03-07 01:20:07.8936 | INFO | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-07 01:20:07.8936 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.world (GreetingApp) in 1.3508ms 
+2025-03-07 01:20:07.8970 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.world (GreetingApp)' 
+2025-03-07 01:20:07.8970 | INFO | Request finished HTTP/1.1 GET https://localhost:7120/GreetingApp/Hello! application/json 55 - 200 - text/plain;+charset=utf-8 3.7503ms 
+2025-03-07 22:07:06.4296 | INFO | Application is starting... 
+2025-03-07 22:07:07.3487 | INFO | Now listening on: https://localhost:7120 
+2025-03-07 22:07:07.3560 | INFO | Now listening on: http://localhost:5244 
+2025-03-07 22:07:07.4158 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-07 22:07:07.4158 | INFO | Hosting environment: Development 
+2025-03-07 22:07:07.4158 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-07 22:07:08.6191 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-07 22:07:08.9251 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 307.0297ms 
+2025-03-07 22:07:08.9526 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-07 22:07:08.9526 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - 
+2025-03-07 22:07:08.9526 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 5.4574ms 
+2025-03-07 22:07:08.9692 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-07 22:07:08.9692 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - - 200 154948 text/css 16.9726ms 
+2025-03-07 22:07:08.9692 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.css - - 
+2025-03-07 22:07:08.9762 | INFO | The file /index.css was not modified 
+2025-03-07 22:07:08.9762 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.css - - - 304 - text/css 2.7179ms 
+2025-03-07 22:07:09.0349 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-07 22:07:09.0349 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-07 22:07:09.0349 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 1.5186ms 
+2025-03-07 22:07:09.1055 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.6485ms 
+2025-03-07 22:07:09.2163 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui-standalone-preset.js - - 
+2025-03-07 22:07:09.2163 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui-bundle.js - - 
+2025-03-07 22:07:09.2163 | INFO | The file /swagger-ui-standalone-preset.js was not modified 
+2025-03-07 22:07:09.2163 | INFO | The file /swagger-ui-bundle.js was not modified 
+2025-03-07 22:07:09.2163 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 7.5497ms 
+2025-03-07 22:07:09.2163 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 5.3532ms 
+2025-03-07 22:07:09.3976 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-07 22:07:09.3976 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-07 22:07:09.3976 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 200 628 image/png 0.7824ms 
+2025-03-07 22:07:09.4405 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-07 22:07:09.4461 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.6097ms 
+2025-03-07 22:21:45.0241 | INFO | Application is starting... 
+2025-03-07 22:21:45.9060 | INFO | Now listening on: https://localhost:7120 
+2025-03-07 22:21:45.9137 | INFO | Now listening on: http://localhost:5244 
+2025-03-07 22:21:45.9695 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-07 22:21:45.9695 | INFO | Hosting environment: Development 
+2025-03-07 22:21:45.9695 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-07 22:21:46.3817 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-07 22:21:46.6523 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 272.6556ms 
+2025-03-07 22:21:46.6897 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-07 22:21:46.6961 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 6.3564ms 
+2025-03-07 22:21:46.7767 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-07 22:21:46.7767 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-07 22:21:46.7767 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 1.9288ms 
+2025-03-07 22:21:46.8429 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.8734ms 
+2025-03-07 22:21:46.9968 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-07 22:21:47.0090 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-07 22:21:47.0090 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 200 628 image/png 12.4607ms 
+2025-03-07 22:21:47.0371 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-07 22:21:47.0426 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.5223ms 
+2025-03-07 22:32:48.9641 | INFO | Application is starting... 
+2025-03-07 22:32:49.4758 | ERROR | Application startup failed. System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: BuisnessLayer.Interface.IGreetingAppBL Lifetime: Scoped ImplementationType: BuisnessLayer.Service.GreetingAppBL': Unable to resolve service for type 'RepositeryLayer.Interface.IGreetingAppRL' while attempting to activate 'BuisnessLayer.Service.GreetingAppBL'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'RepositeryLayer.Interface.IGreetingAppRL' while attempting to activate 'BuisnessLayer.Service.GreetingAppBL'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2025-03-07 22:37:26.9005 | INFO | Application is starting... 
+2025-03-07 22:37:27.7988 | INFO | Now listening on: https://localhost:7120 
+2025-03-07 22:37:27.8070 | INFO | Now listening on: http://localhost:5244 
+2025-03-07 22:37:27.8540 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-07 22:37:27.8540 | INFO | Hosting environment: Development 
+2025-03-07 22:37:27.8540 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-07 22:37:30.1160 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-07 22:37:30.7727 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 664.0747ms 
+2025-03-07 22:37:30.8455 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-07 22:37:30.8639 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 18.3557ms 
+2025-03-07 22:37:30.9457 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-07 22:37:30.9457 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-07 22:37:30.9641 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 6.3338ms 
+2025-03-07 22:37:31.2636 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 317.8811ms 
+2025-03-07 22:37:31.3295 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-07 22:37:31.3428 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-07 22:37:31.3428 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 200 628 image/png 14.0579ms 
+2025-03-07 22:37:31.3849 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-07 22:37:31.3983 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 14.7746ms 
+2025-03-07 22:37:56.7741 | INFO | Request starting HTTP/2 POST https://localhost:7120/GreetingApp/Detail application/json 50 
+2025-03-07 22:37:56.7741 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp)' 
+2025-03-07 22:37:56.8029 | INFO | Route matched with {action = "Detail", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Detail(ModelLayer.Model.DetailsModel) on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-07 22:37:56.8069 | INFO | logger started 
+2025-03-07 22:37:56.8517 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-07 22:37:56.8517 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp) in 51.2897ms 
+2025-03-07 22:37:56.8517 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp)' 
+2025-03-07 22:37:56.8517 | INFO | Request finished HTTP/2 POST https://localhost:7120/GreetingApp/Detail application/json 50 - 200 - application/json;+charset=utf-8 85.5295ms 
+2025-03-07 22:37:59.1954 | INFO | Request starting HTTP/2 POST https://localhost:7120/GreetingApp/Detail application/json 50 
+2025-03-07 22:37:59.1954 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp)' 
+2025-03-07 22:37:59.1954 | INFO | Route matched with {action = "Detail", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Detail(ModelLayer.Model.DetailsModel) on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-07 22:37:59.1954 | INFO | logger started 
+2025-03-07 22:37:59.1954 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-07 22:37:59.1954 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp) in 5.5562ms 
+2025-03-07 22:37:59.2110 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp)' 
+2025-03-07 22:37:59.2110 | INFO | Request finished HTTP/2 POST https://localhost:7120/GreetingApp/Detail application/json 50 - 200 - application/json;+charset=utf-8 16.3570ms 
+2025-03-07 22:38:15.8227 | INFO | Request starting HTTP/2 POST https://localhost:7120/GreetingApp/Detail application/json 43 
+2025-03-07 22:38:15.8227 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp)' 
+2025-03-07 22:38:15.8227 | INFO | Route matched with {action = "Detail", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Detail(ModelLayer.Model.DetailsModel) on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-07 22:38:15.8227 | INFO | logger started 
+2025-03-07 22:38:15.8227 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-07 22:38:15.8227 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp) in 2.2127ms 
+2025-03-07 22:38:15.8227 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp)' 
+2025-03-07 22:38:15.8227 | INFO | Request finished HTTP/2 POST https://localhost:7120/GreetingApp/Detail application/json 43 - 200 - application/json;+charset=utf-8 4.5693ms 
+2025-03-07 22:38:28.5974 | INFO | Request starting HTTP/2 POST https://localhost:7120/GreetingApp/Detail application/json 39 
+2025-03-07 22:38:28.5974 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp)' 
+2025-03-07 22:38:28.5974 | INFO | Route matched with {action = "Detail", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Detail(ModelLayer.Model.DetailsModel) on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-07 22:38:28.6002 | INFO | logger started 
+2025-03-07 22:38:28.6002 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-07 22:38:28.6002 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp) in 2.3582ms 
+2025-03-07 22:38:28.6002 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.Detail (GreetingApp)' 
+2025-03-07 22:38:28.6002 | INFO | Request finished HTTP/2 POST https://localhost:7120/GreetingApp/Detail application/json 39 - 200 - application/json;+charset=utf-8 6.5111ms 
+2025-03-07 22:40:50.6341 | INFO | Application is starting... 
+2025-03-07 22:40:51.5169 | INFO | Now listening on: https://localhost:7120 
+2025-03-07 22:40:51.5275 | INFO | Now listening on: http://localhost:5244 
+2025-03-07 22:40:51.5974 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-07 22:40:51.5998 | INFO | Hosting environment: Development 
+2025-03-07 22:40:51.5998 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-07 22:40:53.7643 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-07 22:40:54.5652 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 804.3091ms 
+2025-03-07 22:40:54.6576 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-07 22:40:54.6576 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - 
+2025-03-07 22:40:54.6673 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 9.7176ms 
+2025-03-07 22:40:54.6902 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-07 22:40:54.6902 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - - 0 154948 text/css 35.7065ms 
+2025-03-07 22:40:55.1712 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-07 22:40:55.1712 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-07 22:40:55.1712 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 3.7128ms 
+2025-03-07 22:40:55.2622 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 90.7333ms 
+2025-03-07 22:40:55.2999 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-07 22:40:55.2999 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-07 22:40:55.3033 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 200 628 image/png 3.5087ms 
+2025-03-07 22:40:55.3541 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-07 22:40:55.3541 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.0698ms 

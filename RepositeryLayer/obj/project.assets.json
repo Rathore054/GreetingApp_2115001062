@@ -300,6 +300,22 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "ModelLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NLog": "5.4.0",
+          "NLog.Web.AspNetCore": "5.4.0",
+          "Swashbuckle.AspNetCore": "7.3.1",
+          "Swashbuckle.AspNetCore.Swagger": "7.3.1"
+        },
+        "compile": {
+          "bin/placeholder/ModelLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModelLayer.dll": {}
+        }
       }
     }
   },
@@ -949,10 +965,16 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ModelLayer/1.0.0": {
+      "type": "project",
+      "path": "../ModelLayer/ModelLayer.csproj",
+      "msbuildProject": "../ModelLayer/ModelLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ModelLayer >= 1.0.0",
       "NLog >= 5.4.0",
       "NLog.Web.AspNetCore >= 5.4.0",
       "Swashbuckle.AspNetCore >= 7.3.1",
@@ -991,7 +1013,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\ModelLayer\\ModelLayer.csproj": {
+              "projectPath": "C:\\Users\\Udit\\OneDrive\\Desktop\\GreetingAppclone\\GreetingApp_2115001062\\ModelLayer\\ModelLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
