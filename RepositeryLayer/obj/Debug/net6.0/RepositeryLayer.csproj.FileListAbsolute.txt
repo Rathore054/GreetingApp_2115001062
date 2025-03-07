@@ -26,3 +26,5 @@ C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\Repositer
 C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\RepositeryLayer\bin\Debug\net6.0\ModelLayer.dll
 C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\RepositeryLayer\bin\Debug\net6.0\ModelLayer.pdb
 C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\RepositeryLayer\obj\Debug\net6.0\Reposite.B241EFC2.Up2Date
+C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\RepositeryLayer\bin\Debug\net6.0\RepositeryLayer.runtimeconfig.json
+C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\RepositeryLayer\obj\Debug\net6.0\RepositeryLayer.genruntimeconfig.cache

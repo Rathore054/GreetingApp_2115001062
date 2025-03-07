@@ -6,6 +6,8 @@ using BuisnessLayer.Interface;
 using BuisnessLayer.Service;
 using RepositeryLayer.Interface;
 using RepositeryLayer.Service;
+using Microsoft.EntityFrameworkCore;
+using RepositeryLayer.Context;
 
 
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
@@ -16,10 +18,16 @@ try
 {
     var builder = WebApplication.CreateBuilder(args);
 
+
+
     // Add NLog as logging provider
     builder.Logging.ClearProviders();
     builder.Host.UseNLog();
-    
+
+    builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+    new MySqlServerVersion(new Version(8, 0, 41))));
+
     // Add services to the container
     builder.Services.AddControllers();
     builder.Services.AddSwaggerGen();
