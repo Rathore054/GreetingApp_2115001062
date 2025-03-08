@@ -71,5 +71,16 @@ namespace BuisnessLayer.Service
             return null;
 
         }
+
+        public bool DeleteGreeting(int ID) 
+        {
+            var result = _iGreetingAppRL.DeleteGreeting(ID);
+            if (result )
+            {
+                return true;
+            
+            }
+            return false;
+        }
     }
 }

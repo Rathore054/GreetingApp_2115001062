@@ -753,3 +753,287 @@ FROM `Users` AS `u`
 2025-03-08 12:00:35.2733 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp) in 60.5635ms 
 2025-03-08 12:00:35.2733 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp)' 
 2025-03-08 12:00:35.2733 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp/AllIdShow - - - 200 - application/json;+charset=utf-8 68.7536ms 
+2025-03-08 14:12:53.4543 | INFO | Application is starting... 
+2025-03-08 14:12:54.7683 | INFO | Now listening on: https://localhost:7120 
+2025-03-08 14:12:54.7802 | INFO | Now listening on: http://localhost:5244 
+2025-03-08 14:12:54.9160 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-08 14:12:54.9160 | INFO | Hosting environment: Development 
+2025-03-08 14:12:54.9160 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-08 14:12:59.1284 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger - - 
+2025-03-08 14:12:59.4560 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-08 14:12:59.6417 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger - - - 0 - - 519.1967ms 
+2025-03-08 14:12:59.9480 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 492.0949ms 
+2025-03-08 14:13:00.0376 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-08 14:13:00.0406 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - 
+2025-03-08 14:13:00.0406 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.css - - 
+2025-03-08 14:13:00.0406 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-08 14:13:00.0406 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-08 14:13:00.0578 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 8.1576ms 
+2025-03-08 14:13:00.0578 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 27.3163ms 
+2025-03-08 14:13:00.1122 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-08 14:13:00.1122 | INFO | Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2025-03-08 14:13:00.1508 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - - 200 154948 text/css 103.8635ms 
+2025-03-08 14:13:00.1508 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.css - - - 200 202 text/css 117.1659ms 
+2025-03-08 14:13:00.4339 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 393.0446ms 
+2025-03-08 14:13:00.8454 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-08 14:13:00.8454 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-08 14:13:00.8454 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 200 628 image/png 3.9172ms 
+2025-03-08 14:13:01.0131 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-08 14:13:01.0340 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 20.8806ms 
+2025-03-08 14:13:11.4850 | INFO | Application is starting... 
+2025-03-08 14:13:13.1574 | INFO | Now listening on: https://localhost:7120 
+2025-03-08 14:13:13.1705 | INFO | Now listening on: http://localhost:5244 
+2025-03-08 14:13:13.2457 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-08 14:13:13.2457 | INFO | Hosting environment: Development 
+2025-03-08 14:13:13.2457 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-08 14:13:15.6174 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger - - 
+2025-03-08 14:13:16.0599 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-08 14:13:16.2446 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger - - - 0 - - 629.3137ms 
+2025-03-08 14:13:16.4952 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 435.2682ms 
+2025-03-08 14:13:16.5934 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-08 14:13:16.5934 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - 
+2025-03-08 14:13:16.5934 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.css - - 
+2025-03-08 14:13:16.5934 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-08 14:13:16.6074 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-08 14:13:16.6074 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 13.5849ms 
+2025-03-08 14:13:16.6162 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 22.9214ms 
+2025-03-08 14:13:16.6162 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-08 14:13:16.6162 | INFO | Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2025-03-08 14:13:16.6162 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - - 200 154948 text/css 33.7839ms 
+2025-03-08 14:13:16.6162 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.css - - - 200 202 text/css 33.4576ms 
+2025-03-08 14:13:16.7621 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 159.6510ms 
+2025-03-08 14:13:17.2683 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-08 14:13:17.2727 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-08 14:13:17.2984 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 200 628 image/png 30.0624ms 
+2025-03-08 14:13:17.3944 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-08 14:13:17.4272 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 32.7989ms 
+2025-03-08 14:13:36.9798 | INFO | Request starting HTTP/2 DELETE https://localhost:7120/GreetingApp/DeleteID2 - - 
+2025-03-08 14:13:36.9798 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp)' 
+2025-03-08 14:13:37.0233 | INFO | Route matched with {action = "DeleteID", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteID(Int32) on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-08 14:13:37.4832 | INFO | logger started 
+2025-03-08 14:13:38.5715 | INFO | Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.3' with options: ServerVersion 8.0.41-mysql  
+2025-03-08 14:13:39.6847 | INFO | Executed DbCommand (86ms) [Parameters=[@__ID_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Greet`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__ID_0
+LIMIT 1 
+2025-03-08 14:13:39.9854 | INFO | Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+UPDATE `Users` SET `Greet` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT(); 
+2025-03-08 14:13:40.0126 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[ModelLayer.Model.GreetingModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-08 14:13:40.0249 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp) in 2992.8912ms 
+2025-03-08 14:13:40.0249 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp)' 
+2025-03-08 14:13:40.0434 | INFO | Request finished HTTP/2 DELETE https://localhost:7120/GreetingApp/DeleteID2 - - - 200 - application/json;+charset=utf-8 3063.6107ms 
+2025-03-08 14:13:56.4161 | INFO | Request starting HTTP/2 GET https://localhost:7120/GreetingApp/AllIdShow - - 
+2025-03-08 14:13:56.4161 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp)' 
+2025-03-08 14:13:56.4161 | INFO | Route matched with {action = "AIdShow", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AIdShow() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-08 14:13:56.4161 | INFO | logger started 
+2025-03-08 14:13:56.4298 | INFO | Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.3' with options: ServerVersion 8.0.41-mysql  
+2025-03-08 14:13:56.4465 | INFO | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Greet`
+FROM `Users` AS `u` 
+2025-03-08 14:13:56.4465 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.Model.GreetingModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-08 14:13:56.4465 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp) in 28.829ms 
+2025-03-08 14:13:56.4465 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp)' 
+2025-03-08 14:13:56.4465 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp/AllIdShow - - - 200 - application/json;+charset=utf-8 36.2851ms 
+2025-03-08 14:14:01.2900 | INFO | Request starting HTTP/2 GET https://localhost:7120/GreetingApp/AllIdShow - - 
+2025-03-08 14:14:01.2900 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp)' 
+2025-03-08 14:14:01.2900 | INFO | Route matched with {action = "AIdShow", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AIdShow() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-08 14:14:01.2900 | INFO | logger started 
+2025-03-08 14:14:01.3598 | INFO | Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.3' with options: ServerVersion 8.0.41-mysql  
+2025-03-08 14:14:01.3598 | INFO | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Greet`
+FROM `Users` AS `u` 
+2025-03-08 14:14:01.3598 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.Model.GreetingModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-08 14:14:01.3598 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp) in 71.4603ms 
+2025-03-08 14:14:01.3598 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp)' 
+2025-03-08 14:14:01.3598 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp/AllIdShow - - - 200 - application/json;+charset=utf-8 75.2201ms 
+2025-03-08 14:15:37.3211 | INFO | Application is starting... 
+2025-03-08 14:15:38.6617 | INFO | Now listening on: https://localhost:7120 
+2025-03-08 14:15:38.6737 | INFO | Now listening on: http://localhost:5244 
+2025-03-08 14:15:38.7421 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-08 14:15:38.7421 | INFO | Hosting environment: Development 
+2025-03-08 14:15:38.7421 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-08 14:15:41.6853 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger - - 
+2025-03-08 14:15:41.7113 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-08 14:15:42.0578 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger - - - 0 - - 378.3637ms 
+2025-03-08 14:15:42.2600 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 548.6716ms 
+2025-03-08 14:15:42.3480 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-08 14:15:42.3480 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - 
+2025-03-08 14:15:42.3480 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-08 14:15:42.3480 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.css - - 
+2025-03-08 14:15:42.3480 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-08 14:15:42.3544 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 6.1588ms 
+2025-03-08 14:15:42.3544 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 10.9022ms 
+2025-03-08 14:15:42.3693 | INFO | Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2025-03-08 14:15:42.3693 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-08 14:15:42.3693 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - - 200 154948 text/css 22.9383ms 
+2025-03-08 14:15:42.3693 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.css - - - 200 202 text/css 22.7454ms 
+2025-03-08 14:15:42.4671 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 118.4034ms 
+2025-03-08 14:15:43.1981 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-08 14:15:43.2132 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-08 14:15:43.2132 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 0 628 image/png 15.5092ms 
+2025-03-08 14:15:43.2568 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-08 14:15:43.2809 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 24.0980ms 
+2025-03-08 14:15:52.6973 | INFO | Request starting HTTP/2 GET https://localhost:7120/GreetingApp/AllIdShow - - 
+2025-03-08 14:15:52.6973 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp)' 
+2025-03-08 14:15:52.7226 | INFO | Route matched with {action = "AIdShow", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AIdShow() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-08 14:15:53.1294 | INFO | logger started 
+2025-03-08 14:15:54.2009 | INFO | Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.3' with options: ServerVersion 8.0.41-mysql  
+2025-03-08 14:15:55.0033 | INFO | Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Greet`
+FROM `Users` AS `u` 
+2025-03-08 14:15:55.1360 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.Model.GreetingModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-08 14:15:55.1477 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp) in 2417.1762ms 
+2025-03-08 14:15:55.1477 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp)' 
+2025-03-08 14:15:55.1663 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp/AllIdShow - - - 200 - application/json;+charset=utf-8 2468.8466ms 
+2025-03-08 14:16:07.2933 | INFO | Request starting HTTP/2 DELETE https://localhost:7120/GreetingApp/DeleteID1 - - 
+2025-03-08 14:16:07.2933 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp)' 
+2025-03-08 14:16:07.3122 | INFO | Route matched with {action = "DeleteID", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteID(Int32) on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-08 14:16:07.3122 | INFO | logger started 
+2025-03-08 14:16:07.3458 | INFO | Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.3' with options: ServerVersion 8.0.41-mysql  
+2025-03-08 14:16:07.7944 | INFO | Executed DbCommand (32ms) [Parameters=[@__ID_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Greet`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__ID_0
+LIMIT 1 
+2025-03-08 14:16:07.9556 | INFO | Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+DELETE FROM `Users`
+WHERE `Id` = @p0;
+SELECT ROW_COUNT(); 
+2025-03-08 14:16:07.9950 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[ModelLayer.Model.GreetingModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-08 14:16:07.9950 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp) in 684.945ms 
+2025-03-08 14:16:07.9950 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp)' 
+2025-03-08 14:16:07.9950 | INFO | Request finished HTTP/2 DELETE https://localhost:7120/GreetingApp/DeleteID1 - - - 200 - application/json;+charset=utf-8 704.8781ms 
+2025-03-08 14:16:11.0439 | INFO | Request starting HTTP/2 DELETE https://localhost:7120/GreetingApp/DeleteID1 - - 
+2025-03-08 14:16:11.0439 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp)' 
+2025-03-08 14:16:11.0439 | INFO | Route matched with {action = "DeleteID", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteID(Int32) on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-08 14:16:11.0439 | INFO | logger started 
+2025-03-08 14:16:11.1179 | INFO | Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.3' with options: ServerVersion 8.0.41-mysql  
+2025-03-08 14:16:11.1179 | INFO | Executed DbCommand (3ms) [Parameters=[@__ID_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Greet`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__ID_0
+LIMIT 1 
+2025-03-08 14:16:11.1179 | INFO | Executing NotFoundObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[ModelLayer.Model.GreetingModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-08 14:16:11.1179 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp) in 81.8797ms 
+2025-03-08 14:16:11.1179 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp)' 
+2025-03-08 14:16:11.1179 | INFO | Request finished HTTP/2 DELETE https://localhost:7120/GreetingApp/DeleteID1 - - - 404 - application/json;+charset=utf-8 85.2092ms 
+2025-03-08 14:18:20.8514 | INFO | Application is starting... 
+2025-03-08 14:18:22.6135 | INFO | Now listening on: https://localhost:7120 
+2025-03-08 14:18:22.6269 | INFO | Now listening on: http://localhost:5244 
+2025-03-08 14:18:22.7047 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-08 14:18:22.7047 | INFO | Hosting environment: Development 
+2025-03-08 14:18:22.7047 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-08 14:18:25.5356 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-08 14:18:26.1509 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 647.3124ms 
+2025-03-08 14:18:26.2322 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.css - - 
+2025-03-08 14:18:26.2322 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-08 14:18:26.2322 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-08 14:18:26.2322 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-08 14:18:26.2322 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - 
+2025-03-08 14:18:26.2322 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 2.9738ms 
+2025-03-08 14:18:26.2430 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 10.6795ms 
+2025-03-08 14:18:26.2561 | INFO | Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2025-03-08 14:18:26.3211 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.css - - - 200 202 text/css 88.8988ms 
+2025-03-08 14:18:26.3211 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-08 14:18:26.3211 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/swagger-ui.css - - - 200 154948 text/css 100.6060ms 
+2025-03-08 14:18:26.4174 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 184.9515ms 
+2025-03-08 14:18:27.1012 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - 
+2025-03-08 14:18:27.1718 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-08 14:18:27.1718 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/favicon-32x32.png - - - 0 628 image/png 71.4320ms 
+2025-03-08 14:18:27.1981 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-08 14:18:27.2183 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 20.1877ms 
+2025-03-08 14:18:38.0726 | INFO | Request starting HTTP/2 DELETE https://localhost:7120/GreetingApp/DeleteID/1 - - 
+2025-03-08 14:18:38.0726 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp)' 
+2025-03-08 14:18:38.1147 | INFO | Route matched with {action = "DeleteID", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteID(Int32) on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-08 14:18:38.6270 | INFO | logger started 
+2025-03-08 14:18:39.6493 | INFO | Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.3' with options: ServerVersion 8.0.41-mysql  
+2025-03-08 14:18:40.7672 | INFO | Executed DbCommand (95ms) [Parameters=[@__ID_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Greet`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__ID_0
+LIMIT 1 
+2025-03-08 14:18:40.8342 | INFO | Executing NotFoundObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[ModelLayer.Model.GreetingModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-08 14:18:40.8456 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp) in 2724.0135ms 
+2025-03-08 14:18:40.8456 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp)' 
+2025-03-08 14:18:40.8672 | INFO | Request finished HTTP/2 DELETE https://localhost:7120/GreetingApp/DeleteID/1 - - - 404 - application/json;+charset=utf-8 2794.5912ms 
+2025-03-08 14:24:40.1817 | INFO | Application is starting... 
+2025-03-08 14:24:41.6558 | INFO | Now listening on: https://localhost:7120 
+2025-03-08 14:24:41.6788 | INFO | Now listening on: http://localhost:5244 
+2025-03-08 14:24:41.7974 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-03-08 14:24:41.7974 | INFO | Hosting environment: Development 
+2025-03-08 14:24:41.7974 | INFO | Content root path: C:\Users\Udit\OneDrive\Desktop\GreetingAppclone\GreetingApp_2115001062\GreetingApp\ 
+2025-03-08 14:24:44.3775 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2025-03-08 14:24:44.9408 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 569.0238ms 
+2025-03-08 14:24:45.0722 | INFO | Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-08 14:24:45.0722 | INFO | Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 6.8022ms 
+2025-03-08 14:24:45.5062 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/index.js - - 
+2025-03-08 14:24:45.5310 | INFO | Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - - 
+2025-03-08 14:24:45.5310 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/index.js - - - 200 - application/javascript;charset=utf-8 27.6331ms 
+2025-03-08 14:24:45.8044 | INFO | Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 273.4041ms 
+2025-03-08 14:24:46.6078 | INFO | Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2025-03-08 14:24:46.6250 | INFO | Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 17.2811ms 
+2025-03-08 14:25:24.5988 | INFO | Request starting HTTP/2 POST https://localhost:7120/GreetingApp/displayGreet application/json 43 
+2025-03-08 14:25:24.6079 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.PostDisplay (GreetingApp)' 
+2025-03-08 14:25:24.6348 | INFO | Route matched with {action = "PostDisplay", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PostDisplay(ModelLayer.Model.GreetingModel) on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-08 14:25:24.9688 | INFO | logger started 
+2025-03-08 14:25:25.8418 | INFO | Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.3' with options: ServerVersion 8.0.41-mysql  
+2025-03-08 14:25:26.8103 | INFO | Executed DbCommand (94ms) [Parameters=[@__greetingModel_GreetMessage_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Users` AS `u`
+    WHERE `u`.`Greet` = @__greetingModel_GreetMessage_0) 
+2025-03-08 14:25:27.2412 | INFO | Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Users` (`Greet`)
+VALUES (@p0);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID(); 
+2025-03-08 14:25:27.3334 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-08 14:25:27.3450 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.PostDisplay (GreetingApp) in 2702.0207ms 
+2025-03-08 14:25:27.3450 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.PostDisplay (GreetingApp)' 
+2025-03-08 14:25:27.3660 | INFO | Request finished HTTP/2 POST https://localhost:7120/GreetingApp/displayGreet application/json 43 - 200 - application/json;+charset=utf-8 2767.1572ms 
+2025-03-08 14:25:40.4338 | INFO | Request starting HTTP/2 GET https://localhost:7120/GreetingApp/AllIdShow - - 
+2025-03-08 14:25:40.4338 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp)' 
+2025-03-08 14:25:40.4338 | INFO | Route matched with {action = "AIdShow", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AIdShow() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-08 14:25:40.4338 | INFO | logger started 
+2025-03-08 14:25:40.4628 | INFO | Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.3' with options: ServerVersion 8.0.41-mysql  
+2025-03-08 14:25:40.5299 | INFO | Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Greet`
+FROM `Users` AS `u` 
+2025-03-08 14:25:40.5299 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.Model.GreetingModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-08 14:25:40.5390 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp) in 99.5203ms 
+2025-03-08 14:25:40.5390 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp)' 
+2025-03-08 14:25:40.5390 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp/AllIdShow - - - 200 - application/json;+charset=utf-8 106.0108ms 
+2025-03-08 14:26:09.0090 | INFO | Request starting HTTP/2 DELETE https://localhost:7120/GreetingApp/DeleteID/3 - - 
+2025-03-08 14:26:09.0090 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp)' 
+2025-03-08 14:26:09.0090 | INFO | Route matched with {action = "DeleteID", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteID(Int32) on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-08 14:26:09.0090 | INFO | logger started 
+2025-03-08 14:26:09.1123 | INFO | Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.3' with options: ServerVersion 8.0.41-mysql  
+2025-03-08 14:26:09.1315 | INFO | Executed DbCommand (5ms) [Parameters=[@__ID_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Greet`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__ID_0
+LIMIT 1 
+2025-03-08 14:26:09.1577 | INFO | Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+DELETE FROM `Users`
+WHERE `Id` = @p0;
+SELECT ROW_COUNT(); 
+2025-03-08 14:26:09.1701 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[ModelLayer.Model.GreetingModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-08 14:26:09.1701 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp) in 159.2893ms 
+2025-03-08 14:26:09.1701 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.DeleteID (GreetingApp)' 
+2025-03-08 14:26:09.1701 | INFO | Request finished HTTP/2 DELETE https://localhost:7120/GreetingApp/DeleteID/3 - - - 200 - application/json;+charset=utf-8 164.9227ms 
+2025-03-08 14:26:32.5281 | INFO | Request starting HTTP/2 GET https://localhost:7120/GreetingApp/AllIdShow - - 
+2025-03-08 14:26:32.5281 | INFO | Executing endpoint 'GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp)' 
+2025-03-08 14:26:32.5281 | INFO | Route matched with {action = "AIdShow", controller = "GreetingApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AIdShow() on controller GreetingApp.Controllers.GreetingAppController (GreetingApp). 
+2025-03-08 14:26:32.5281 | INFO | logger started 
+2025-03-08 14:26:32.5281 | INFO | Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.3' with options: ServerVersion 8.0.41-mysql  
+2025-03-08 14:26:32.5281 | INFO | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Greet`
+FROM `Users` AS `u` 
+2025-03-08 14:26:32.5281 | INFO | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.Model.GreetingModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-08 14:26:32.5281 | INFO | Executed action GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp) in 5.1927ms 
+2025-03-08 14:26:32.5281 | INFO | Executed endpoint 'GreetingApp.Controllers.GreetingAppController.AIdShow (GreetingApp)' 
+2025-03-08 14:26:32.5373 | INFO | Request finished HTTP/2 GET https://localhost:7120/GreetingApp/AllIdShow - - - 200 - application/json;+charset=utf-8 9.1498ms 

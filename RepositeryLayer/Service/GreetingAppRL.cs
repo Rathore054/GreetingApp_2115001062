@@ -93,7 +93,7 @@ namespace RepositeryLayer.Service
         /// <returns></returns>
         /// 
 
-     public AppEntity UpdateGreeting(int ID, GreetingModel greetingModel)
+        public AppEntity UpdateGreeting(int ID, GreetingModel greetingModel)
         {
             var MSGupdate = _context.Users.FirstOrDefault(g => g.Id == ID);
             if (MSGupdate != null)
@@ -105,5 +105,19 @@ namespace RepositeryLayer.Service
             }
             return null;
         }
+
+        public bool DeleteGreeting(int ID)
+        {
+            var DeleteMSG = _context.Users.FirstOrDefault(g => g.Id == ID);
+           if (DeleteMSG != null)
+            {
+               
+                _context.Users.Remove(DeleteMSG);
+                _context.SaveChanges();
+                return true;
+            }
+            return false;
+        }
+
     }
-    }
+}

@@ -155,5 +155,23 @@ namespace GreetingApp.Controllers
             return NotFound(response);
         }
 
+        [HttpDelete("DeleteID/{ID}")]
+        public IActionResult DeleteID(int ID)
+        {
+
+            ResponseModel<GreetingModel> response = new ResponseModel<GreetingModel>();
+            bool result = _greetingBL.DeleteGreeting(ID);
+            if (result)
+            {
+                response.Success = true;
+                response.Message = "Message Deleted";
+                
+                return Ok(response);
+            }
+            response.Success = false;
+            response.Message = "Nothing to Delete";
+            return NotFound(response);
+        }
+        
     }
 }

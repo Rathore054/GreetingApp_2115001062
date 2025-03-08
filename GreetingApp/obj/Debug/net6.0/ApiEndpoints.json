@@ -85,6 +85,22 @@
   },
   {
     "ContainingType": "GreetingApp.Controllers.GreetingAppController",
+    "Method": "DeleteID",
+    "RelativePath": "GreetingApp/DeleteID/{ID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreetingApp.Controllers.GreetingAppController",
     "Method": "Detail",
     "RelativePath": "GreetingApp/Detail",
     "HttpMethod": "POST",

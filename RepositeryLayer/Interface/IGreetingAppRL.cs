@@ -16,5 +16,7 @@ namespace RepositeryLayer.Interface
         public List<AppEntity> GetAllGreetings();//All ID Show
 
         public AppEntity UpdateGreeting(int ID,GreetingModel greetingModel);//Edit Greeting Message UC7
+
+        public bool DeleteGreeting(int ID);
     }
 }
