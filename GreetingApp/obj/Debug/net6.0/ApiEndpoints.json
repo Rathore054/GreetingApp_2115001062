@@ -150,5 +150,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreetingApp.Controllers.GreetingAppController",
+    "Method": "UpdatePut",
+    "RelativePath": "GreetingApp/UpdateGreet",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "greetingModel",
+        "Type": "ModelLayer.Model.GreetingModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

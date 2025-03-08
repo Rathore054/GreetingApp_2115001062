@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ModelLayer.Model;
+using RepositeryLayer.Entity;
 
 namespace BuisnessLayer.Interface
 {
@@ -15,5 +16,7 @@ namespace BuisnessLayer.Interface
         public GreetingModel GreetingIDFind(int ID);
 
         public List<GreetingModel> GetAllGreetings();
+
+        public GreetingModel UpdateGreeting(int ID, GreetingModel greetingModel );
     }
 }

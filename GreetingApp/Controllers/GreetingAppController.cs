@@ -137,6 +137,23 @@ namespace GreetingApp.Controllers
             response.Message = "No ID to Display";
             return NotFound(response);
         }
+        [HttpPut("UpdateGreet")]
+        public IActionResult UpdatePut(int ID, GreetingModel greetingModel) 
+        {
+
+            ResponseModel<GreetingModel> response = new ResponseModel<GreetingModel>();
+            var result = _greetingBL.UpdateGreeting(ID,greetingModel);
+            if (result != null)
+            {
+                response.Success = true;
+                response.Message = "Updated message";
+                response.Data = result;
+                return Ok(response);
+            }
+            response.Success = false;
+            response.Message = "Nothing to update";
+            return NotFound(response);
+        }
 
     }
 }

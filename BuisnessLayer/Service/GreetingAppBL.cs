@@ -11,26 +11,28 @@ using RepositeryLayer.Interface;
 
 namespace BuisnessLayer.Service
 {
-    public class GreetingAppBL:IGreetingAppBL
+    public class GreetingAppBL : IGreetingAppBL
     {
         private readonly IGreetingAppRL _iGreetingAppRL;
-        public GreetingAppBL(IGreetingAppRL greetingAppRL) {
+        public GreetingAppBL(IGreetingAppRL greetingAppRL)
+        {
             _iGreetingAppRL = greetingAppRL;
         }
         public string Greet()
         {
             return "HelloWorld";
         }
-        public string getGreeting(DetailsModel detailsModel) {
+        public string getGreeting(DetailsModel detailsModel)
+        {
             return _iGreetingAppRL.GetGreeting(detailsModel);
         }
-        public bool GreetMethod(GreetingModel greetingModel) 
-        { 
-        return _iGreetingAppRL.GreetMethod(greetingModel);
-        }
-        public GreetingModel GreetingIDFind(int ID) 
+        public bool GreetMethod(GreetingModel greetingModel)
         {
-        return _iGreetingAppRL.GreetingIDFind(ID);
+            return _iGreetingAppRL.GreetMethod(greetingModel);
+        }
+        public GreetingModel GreetingIDFind(int ID)
+        {
+            return _iGreetingAppRL.GreetingIDFind(ID);
         }
 
         /// <summary>
@@ -50,7 +52,24 @@ namespace BuisnessLayer.Service
                 }).ToList();
             }
             return null;
-        
+
+
+        }
+        public GreetingModel UpdateGreeting(int ID, GreetingModel greetingModel)
+        {
+            var result = _iGreetingAppRL.UpdateGreeting(ID,greetingModel);
+            if (result != null)
+            {
+                return new GreetingModel
+                {
+                    ID = result.Id,
+                    GreetMessage = result.Greet,
+                };
+
+
+            }
+            return null;
+
         }
     }
 }

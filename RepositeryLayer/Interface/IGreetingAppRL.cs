@@ -14,5 +14,7 @@ namespace RepositeryLayer.Interface
         public bool GreetMethod(GreetingModel greetingModel);
         public GreetingModel GreetingIDFind(int ID);
         public List<AppEntity> GetAllGreetings();//All ID Show
+
+        public AppEntity UpdateGreeting(int ID,GreetingModel greetingModel);//Edit Greeting Message UC7
     }
 }

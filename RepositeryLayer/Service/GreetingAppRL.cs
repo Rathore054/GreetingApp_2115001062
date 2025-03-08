@@ -74,16 +74,36 @@ namespace RepositeryLayer.Service
                 return new GreetingModel()
                 {
                     ID = IDFind.Id,
-                    GreetMessage=IDFind.Greet
+                    GreetMessage = IDFind.Greet
                 };
             }
             return null;
-            
+
         }
         public List<AppEntity> GetAllGreetings()
         {
             return _context.Users.ToList();
         }
-    }
+    
+        /// <summary>
+        /// UC6
+        /// </summary>
+        /// <param name="index"></param>
+        /// <param name="newMessage"></param>
+        /// <returns></returns>
+        /// 
 
-}
+     public AppEntity UpdateGreeting(int ID, GreetingModel greetingModel)
+        {
+            var MSGupdate = _context.Users.FirstOrDefault(g => g.Id == ID);
+            if (MSGupdate != null)
+            {
+                MSGupdate.Greet = greetingModel.GreetMessage;
+                _context.Users.Update(MSGupdate);
+                _context.SaveChanges();
+                return MSGupdate;
+            }
+            return null;
+        }
+    }
+    }
