@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BuisnessLayer.Interface;
 using ModelLayer.Model;
+using RepositeryLayer.Entity;
 using RepositeryLayer.Interface;
 
 
@@ -30,6 +31,26 @@ namespace BuisnessLayer.Service
         public GreetingModel GreetingIDFind(int ID) 
         {
         return _iGreetingAppRL.GreetingIDFind(ID);
+        }
+
+        /// <summary>
+        /// UC5
+        /// </summary>
+        /// <returns></returns>
+        public List<GreetingModel> GetAllGreetings()
+        {
+
+            var list = _iGreetingAppRL.GetAllGreetings();
+            if (list != null)
+            {
+                return list.Select(g => new GreetingModel
+                {
+                    ID = g.Id,
+                    GreetMessage = g.Greet,
+                }).ToList();
+            }
+            return null;
+        
         }
     }
 }

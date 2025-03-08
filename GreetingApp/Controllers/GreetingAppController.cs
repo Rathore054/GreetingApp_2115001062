@@ -121,6 +121,22 @@ namespace GreetingApp.Controllers
             response.Message = "not found";
             return NotFound(response);
         }
+        [HttpGet("AllIdShow")]
+        public IActionResult AIdShow() 
+        {
+            ResponseModel<List<GreetingModel>> response = new ResponseModel<List<GreetingModel>>();
+            var result= _greetingBL.GetAllGreetings();
+            if (result != null)
+            { 
+            response.Success = true;
+            response.Message = "All ID Display";
+            response.Data = result;
+            return Ok(response);
+            }
+            response.Success = false;
+            response.Message = "No ID to Display";
+            return NotFound(response);
+        }
 
     }
 }

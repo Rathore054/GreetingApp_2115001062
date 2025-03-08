@@ -75,6 +75,16 @@
   },
   {
     "ContainingType": "GreetingApp.Controllers.GreetingAppController",
+    "Method": "AIdShow",
+    "RelativePath": "GreetingApp/AllIdShow",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreetingApp.Controllers.GreetingAppController",
     "Method": "Detail",
     "RelativePath": "GreetingApp/Detail",
     "HttpMethod": "POST",

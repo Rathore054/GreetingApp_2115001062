@@ -41,6 +41,11 @@ namespace RepositeryLayer.Service
             }
 
         }
+        /// <summary>
+        /// UC4
+        /// </summary>
+        /// <param name="greetingModel"></param>
+        /// <returns></returns>
         public bool GreetMethod(GreetingModel greetingModel)
         {
             if (_context.Users.Any(greet => greet.Greet == greetingModel.GreetMessage))
@@ -56,7 +61,11 @@ namespace RepositeryLayer.Service
             _context.SaveChanges();
             return true;
         }
-
+        /// <summary>
+        /// UC5
+        /// </summary>
+        /// <param name="ID"></param>
+        /// <returns></returns>
         public GreetingModel GreetingIDFind(int ID)
         {
             var IDFind = _context.Users.FirstOrDefault(g => g.Id == ID);
@@ -70,6 +79,10 @@ namespace RepositeryLayer.Service
             }
             return null;
             
+        }
+        public List<AppEntity> GetAllGreetings()
+        {
+            return _context.Users.ToList();
         }
     }
 
